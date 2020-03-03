@@ -1,8 +1,14 @@
 import React from 'react';
-import Sobre from './objects/sobre'
+import './App.css'
+import Header from './component/Header';
+import Grid from './component/Grid';
+
 function App() {
   return (
-      <Sobre />
+    <main className="app">
+      <Header />
+      <Grid />
+    </main>
   );
 }
 

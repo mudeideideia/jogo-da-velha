@@ -1,0 +1,12 @@
+.menu::before, .menu > span, .menu::after {
+    content: '';
+    display: block;
+    background-color: var(--color-fourth);
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.menu > span {
+    margin: 5px 0;
+}
